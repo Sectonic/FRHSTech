@@ -11,7 +11,7 @@
     <script src="js/nav.js"></script>
     <script src="js/carousel.js"></script>
 </head>
-<body data-theme="night">
+<body data-theme="night" class="text-center lg:text-left">
   <div class="fixed z-10 navbar bg-base-200 shadow-xl" id="nav">
     <div class="flex-1">
       <a class="btn btn-ghost normal-case text-2xl" href="index.html">
@@ -67,8 +67,8 @@
     <a onclick="scrollCarousel('#slide2')" class="slide-btn btn btn-xs btn-primary">2</a> 
     <a onclick="scrollCarousel('#slide3')" class="slide-btn btn btn-xs btn-primary">3</a> 
   </div>
-  <div class="hero py-32 bg-base-100">
-      <div class="hero-content flex-col lg:flex-row gap-12">
+  <div class="hero py-12 lg:py-32 bg-base-100">
+      <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12">
         <img src="img/hero.png" class="max-w-sm rounded-lg shadow-2xl" />
         <div>
           <h1 class="text-5xl font-bold">Who We Are</h1>
@@ -78,7 +78,7 @@
       </div>
   </div>
   <div class="text-5xl text-center font-bold pt-12 bg-base-200">Our Clubs</div>
-  <div class="flex justify-center pb-24 pt-10 gap-10 bg-base-200">
+  <div class="flex flex-wrap justify-center pb-24 pt-10 gap-10 bg-base-200 px-5">
     <a href="cshs.html">
       <div class="group card w-80 bg-base-100 shadow-xl cursor-pointer hover:bg-primary transition duration-300">
         <figure><img src="img/cshs.png" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
@@ -119,13 +119,12 @@
       </div>
     </div>
   </div>
-  <div class="hero py-32 bg-base-100">
-    <div class="hero-content flex-col lg:flex-row-reverse gap-24">
+  <div class="hero py-12 lg:py-32 bg-base-100">
+    <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
       <img src="img/hero2.png" class="max-w-sm rounded-lg shadow-2xl" />
       <div>
         <h1 class="text-5xl font-bold">Why Should I Join?</h1>
         <p class="py-6">5C's is dedicated to making promoting Computer Science in Fossil Ridge. By joining one of the 5C's club, you'll be able to recieve early and priority access to our various events while furthering your knowledge in Computer Science. You'll also have the oppurtunity to work on our in-house service projects and internships, making our organizations a great addition to for college applications. If that sounds a bit difficult, worry not! We provide our own workshops to teach you real Computer Science skills, and we will be providing numerous guest speakers to come in and give you an idea on what it is like to do Computer Science as a career.</p>
-        <button class="btn btn-primary">Get Started</button>
       </div>
     </div>
   </div>
