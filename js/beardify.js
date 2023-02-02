@@ -49,7 +49,7 @@ interact('.resize-drag')
   })
 
 function showMenu(menu_name) {
-  menu = document.getElementById(menu_name)
+  menu = document.getElementById(menu_name);
   menu.style.display = 'block';
 }
 
